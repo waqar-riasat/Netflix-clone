@@ -1,0 +1,163 @@
+body{
+    background-color:rgb(49, 49, 49);
+    background-image: url(picture2.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+.nav{
+    position: fixed;
+    padding: 10px; 
+    font-size:large;
+    background-color: rgb(19, 18, 18);
+    color: aliceblue;
+    display: flex;            /* isliye use kiya because hum "flex" ki properties("justify-content & align text") use kr sakein*/
+    justify-content: center;  /*Aligns the content horizintally */
+    align-items: center;      /*Aligns the content vertically */
+    border-radius: 20px;       /*edges curve krdega*/
+    margin-top: 10px;         /* uper se 20px ka gap rkho*/
+    margin-left: 465px; 
+    width: 500px;
+}
+
+.remove_style{
+    list-style: none;           /* to remove the dots() of the ordered list*/
+    display: flex;              /* text ko Horizonatally show karega*/ 
+    gap: 30px;                  /* adds 30px gap bw the elements*/
+
+    /*removing default margin & padding for accurate Allignment*/
+    margin: 0; 
+    padding: 0;
+}
+
+#netflix{
+    color: red;
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+.signup{
+    background-color: aliceblue;
+    color: rgb(27, 23, 23);
+    border-radius: 25px;
+    position: absolute;
+    top: 15px;
+    left: 1250px;
+    width: 100px;
+    height: 30px;
+    font-size:15px;
+    font-weight: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content1{
+position: absolute;
+top: 200px;
+left: 500px;
+font-family: Arial, Helvetica, sans-serif;
+color: antiquewhite;
+font-weight: 1500;
+font-size: 60px;
+
+}
+
+#content2{
+    position: absolute;
+    top: 370px;
+    left: 510px;
+    font-family:'Calibri';
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+
+#content3{
+    position: absolute;
+    left: 510px;
+    top: 440px;
+    font-family:'Times New Roman', Times, serif;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+
+#email{  /*Targeted using id.*/
+border-radius: 2px solid;
+border-color:gray;
+background-color: gray;
+
+position: absolute;
+top: 520px;
+left: 510px;
+width: 270px;
+padding: 15px;
+border-radius: 25px;
+}
+
+
+#email::placeholder{
+    font-family: 'Times New Roman';
+    color: aliceblue;    
+    font-size: 15px;
+}
+
+
+
+button{
+
+    background-color: red;
+    position: absolute;
+    border: none;
+    top: 520px;
+    left: 840px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 25px;
+
+    font-family: 'Arial';
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
